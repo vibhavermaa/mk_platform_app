@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1613547123737.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1704140921",
+    "id" : "B8A922BA",
+    "lastKnownWriteTime" : 1613547106,
+    "last_content_update" : 1613547106,
+    "path" : "~/Documents/MCKPlatform/docker_workspace/simple_app_mck_platform/mck_platform_sample_app/renv.lock",
+    "project_path" : "renv.lock",
+    "properties" : {
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "text"
+}
