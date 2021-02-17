@@ -14,12 +14,3 @@ RUN apt-get update && apt-get install libxml2 libxml2-dev -y && \
 ARG   URL_PATH_PREFIX="/"
 COPY  . /srv/shiny-server/${URL_PATH_PREFIX}
 
-
-# expose port
-EXPOSE 3838
-
-# allow permission
-RUN sudo chown -R shiny:shiny /srv/shiny-server
-
-# run app
-CMD ["/usr/bin/shiny-server.sh"]
