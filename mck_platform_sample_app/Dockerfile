@@ -1,4 +1,4 @@
-FROM rocker/shiny:4.0.2
+FROM rocker/shiny:3.6.3
 
 # Install dependencies
 RUN apt-get update && apt-get install libxml2 libxml2-dev -y && \
