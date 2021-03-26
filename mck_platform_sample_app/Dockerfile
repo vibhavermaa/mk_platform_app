@@ -13,4 +13,6 @@ RUN apt-get update && apt-get install libxml2 libxml2-dev -y && \
 # To change the value we will need to rebuild the docker image
 ARG   URL_PATH_PREFIX="/"
 COPY  . /srv/shiny-server/${URL_PATH_PREFIX}
+#
+#testing 
 
